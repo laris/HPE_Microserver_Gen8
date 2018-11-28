@@ -52,3 +52,5 @@ J06|05/21/2018|[sbios_vj06_usb_README.md](sbios_vj06_usb_README.md)|[USB Key Med
 * https://github.com/swaygently/ansible-rose-gen8
     * Initialization HP MicroServer Gen8 server for RHEL/CentOS .
     * 初始化安装CentOS的HP MicroServer Gen8，安装mcp、初始化虚拟机。其中虚拟化了一台OPNsense作为软路由，其他的虚拟机连接到软路由的LAN口。
+* https://github.com/GerGitHub/HPMicroserverGen8-ESXI-Windows-DSM
+    * looks like NULL content
