@@ -1,4 +1,4 @@
-# HP_Microserver_Gen8
+# HPE_Microserver_Gen8
 ## Firmware
 ### iLO 4
 |Version|Update Date|File|Note|
