@@ -1,0 +1,593 @@
+June 25, 2019                              Hewlett Packard Enterprise
+
+
+
+System Firmware Upgrade for HP ProLiant MicroServer Gen8 Servers
+release history.
+
+
+
+
+Description - 
+
+Version 2019.04.04  Rev. A
+
+
+
+Important Notes -
+
+
+This revision of the System ROM includes the latest revision of the Intel microcode which, in combination with operating system and/or hypervisor updates, provides mitigation for a new group of side channel vulnerabilities known as Microarchitectural Data Sampling (MDS).  This includes support for mitigating the following vulnerabilities:  CVE-2018-12126 - Microarchitectural Store Buffer Data Sampling, CVE-2018-12130 - Microarchitectural Fill Buffer Data Sampling, CVE-2018-12127 - Microarchitectural Load Port Data Sampling, and CVE-2019-11091 - Microarchitectural Data Sampling Uncacheable Memory.  These issues are not unique to HPE servers.
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (04/04/2019)
+_____________________________________________
+None
+
+
+
+
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (04/04/2019)
+_____________________________________________
+This revision of the System ROM includes the latest revision of the Intel microcode which, in combination with operating system and/or hypervisor updates, provides mitigation for a new group of side channel vulnerabilities known as Microarchitectural Data Sampling (MDS).  This includes support for mitigating the following vulnerabilities:  CVE-2018-12126 - Microarchitectural Store Buffer Data Sampling, CVE-2018-12130 - Microarchitectural Fill Buffer Data Sampling, CVE-2018-12127 - Microarchitectural Load Port Data Sampling, and CVE-2019-11091 - Microarchitectural Data Sampling Uncacheable Memory.  These issues are not unique to HPE servers.
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (04/04/2019)
+_____________________________________________
+
+None
+
+Copyright © 2019 Hewlett Packard Enterprise. All rights reserved.
+
+
+
+
+
+
+
+=======================================================================
+
+
+
+
+
+
+
+Description - 
+
+Version 2018.05.21  Rev. A
+
+
+
+Important Notes -
+
+
+This revision of the System ROM includes the latest revision of the Intel microcode which, in combination with operating system updates, provides mitigation for the Speculative Store Bypass (also known as Variant 4) security vulnerability.  A Medium level CVE has been assigned to this issue with ID CVE-2018-3639.  Systems with microprocessors utilizing speculative execution and speculative execution of memory reads before the addresses of all prior memory writes are known may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.  This security vulnerability is not unique to HPE servers and impacts any systems utilizing impacted processors.
+
+This revision of the System ROM includes the latest revision of the Intel microcode which provides mitigation for the Rogue Register Read (also known as Variant 3a) security vulnerability.  A Medium level CVE has been assigned to this issue with ID CVE-2018-3640.  Systems with microprocessors utilizing speculative execution and that perform speculative reads of system registers may allow unauthorized disclosure of system parameters to an attacker with local user access via a side-channel analysis.  This security vulnerability is not unique to HPE servers and impacts any systems utilizing impacted processors.
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (05/21/2018)
+_____________________________________________
+None
+
+
+
+
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (05/21/2018)
+_____________________________________________
+This revision of the System ROM includes the latest revision of the Intel microcode which, in combination with operating system updates, provides mitigation for the Speculative Store Bypass (also known as Variant 4) security vulnerability.  A Medium level CVE has been assigned to this issue with ID CVE-2018-3639.  Systems with microprocessors utilizing speculative execution and speculative execution of memory reads before the addresses of all prior memory writes are known may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.  This security vulnerability is not unique to HPE servers and impacts any systems utilizing impacted processors.
+
+This revision of the System ROM includes the latest revision of the Intel microcode which provides mitigation for the Rogue Register Read (also known as Variant 3a) security vulnerability.  A Medium level CVE has been assigned to this issue with ID CVE-2018-3640.  Systems with microprocessors utilizing speculative execution and that perform speculative reads of system registers may allow unauthorized disclosure of system parameters to an attacker with local user access via a side-channel analysis.  This security vulnerability is not unique to HPE servers and impacts any systems utilizing impacted processors.
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (05/21/2018)
+_____________________________________________
+
+None
+
+Copyright © 2018 Hewlett Packard Enterprise. All rights reserved.
+
+
+
+
+
+
+
+=======================================================================
+
+
+
+
+
+
+
+Description - 
+
+Version 2018.01.22  Rev. A
+
+
+
+Important Notes -
+
+
+This revision of the System ROM includes the latest revision of the Intel microcode which, in combination with operating system updates, provides mitigation for Variant 2 of the Side Channel Analysis vulnerability, also known as Spectre.  The revision of the microcode included in this System ROM does NOT have issues with more frequent reboots and unpredictable system behavior which impacted the previous Intel microcode which was part of the Spectre Variant 2 mitigation. Additional information is available from Intel’s Security Exploit Newsroom, https://newsroom.intel.com/press-kits/security-exploits-intel-products/.
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (01/22/2018)
+_____________________________________________
+None
+
+
+
+
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (01/22/2018)
+_____________________________________________
+Updated the Intel processor microcode to the latest version.
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (01/22/2018)
+_____________________________________________
+
+None
+
+Copyright © 2018 Hewlett Packard Enterprise. All rights reserved.
+
+
+
+
+
+
+
+=======================================================================
+
+
+
+
+
+
+
+Description - 
+
+Version 2015.11.02  Rev. A
+
+
+
+Important Notes -
+
+
+None
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (11/02/2015)
+_____________________________________________
+Added support for Intel Xeon E3-1220 v2 processors.  Previous revisions of the System ROM should NOT be used with this processor as they did not support an appropriate thermal solution for it.
+
+
+
+
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (11/02/2015)
+_____________________________________________
+None
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (11/02/2015)
+_____________________________________________
+
+None
+
+
+
+
+
+
+
+
+
+=======================================================================
+
+
+
+
+
+
+
+Description - 
+
+Version 2015.07.16  Rev. A
+
+
+
+Important Notes -
+
+
+None
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (07/16/2015)
+_____________________________________________
+Added support for Intel i3-2130 and i3-3240 processors.
+
+
+ 
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (07/16/2015)
+_____________________________________________
+None
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (07/16/2015)
+_____________________________________________
+
+None
+
+ 
+
+
+
+
+
+=======================================================================
+
+
+
+
+
+
+
+Description - 
+
+Version 2014.06.06  Rev. A
+
+
+
+Important Notes -
+
+
+None
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (06/06/2014)
+_____________________________________________
+None
+
+
+
+
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (06/06/2014)
+_____________________________________________
+Resolved an issue with excessively loud fan noise when either SATA AHCI support is enabled in the Embedded SATA Configuration menu in RBSU (ROM-Based Setup Utility) or when Dynamic HP Smart Array B120i RAID Support is enabled in the Embedded SATA Configuration menu in RBSU (ROM-Based Setup Utility) and the Dynamic HP Smart Array B120i RAID operating system driver is not loaded.
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (06/06/2014)
+_____________________________________________
+
+None
+
+
+
+
+
+
+
+
+
+=======================================================================
+
+
+
+
+
+
+
+Description - 
+
+Version 2013.11.09  Rev. A
+
+
+
+Important Notes -
+
+
+None
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (11/09/2013)
+_____________________________________________
+Added additional options to the ROM Based Setup Utility (RBSU) Power-On Delay Option for delay times of 15, 30, 40 and 60 seconds (in addition to the previous options of No Delay and Random Delay). For these new selections to function, the system must be using Integrated Lights-Out (iLO) Firmware version 1.20 or later.  If the system is configured to one of the new options without having iLO Firmware version 1.20 or later, the Power-On Delay Option will function as if the No Delay option were chosen.
+
+Enhanced the System ROM's detection of valid boot devices such as USB Drive Keys or Hard Drives.  Previously, the System ROM may have attempted to boot certain bootable media with invalid boot records resulting in a Non-System Disk error.  In some cases, the System ROM will now be able to detect the invalid boot record and skip attempting to boot the device.  This allows the System ROM to attempt to boot the next device in the boot order.
+
+Added the latest product names of optional expansion cards and updated language translations (for non-English modes) in the ROM-Based Setup Utility (RBSU).
+
+
+
+
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (11/09/2013)
+_____________________________________________
+None
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (11/09/2013)
+_____________________________________________
+
+None
+
+
+
+
+
+
+
+
+
+=======================================================================
+
+
+
+
+
+
+
+Description - 
+
+Version 2013.08.24  Rev. A
+
+
+
+Important Notes -
+
+
+None
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (08/24/2013)
+_____________________________________________
+Added the latest product names of optional expansion cards and updated language translations (for non-English modes) in the ROM-Based Setup Utility (RBSU).
+
+Added support to allow industry standard utilities to display the operating voltage of installed DIMMs as well as the minimum and maximum voltage supported by installed DIMMs.  This System ROM revision supports newly defined industry standard fields in the industry standard SMBIOS tables.  Utilities to display this information may not yet be available.
+
+Added support to allow industry standard utilities to display the HP DIMM Part Number for HP SmartMemory DIMMs.  This information will also be displayed in the HP iLO GUI interface when using an updated revision of iLO Firmware.
+
+
+
+
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (08/24/2013)
+_____________________________________________
+Addressed a processor issue under which a rare and complex sequence of internal processor microarchitecture events that occur in specific operating environments could cause a server system to experience unexpected page faults, general protection faults, or machine check exceptions or other unpredictable system behavior.  While all processors supported by this server have this issue, to be affected by this issue the server must be operating in a virtualized environment, have Intel Hyperthreading enabled, have a hypervisor that enables Intel VT FlexPriority and Extended Page Tables, and have a guest OS utilizing 32-bit PAE Paging Mode. This issue is not unique to HP ProLiant servers and could impact any system utilizing affected processors operating with the conditions listed above. This revision of the System ROM contains an updated version of Intel's microcode that addresses this issue. Due to the potential severity of the issue addressed in this revision of the System ROM, this System ROM upgrade is considered a critical fix.
+
+Addressed an issue where the system experienced unexpected system behavior or report ACPI issues through the OS boot logs (such as Linux DMESG) when IOMMU was enabled in a virtualized operating system environment.
+
+Addressed an issue where Linux Operating Systems reported the following message: ERST: Failed to get Error Log Address Range, in the Linux DMESG log.
+
+Addressed an issue where the server's Legacy USB support would not properly report the drive capacity of a USB Drive Key that was larger than 8GB resulting in an inability to boot USB Drive Keys larger than 8 GB.
+
+Addressed an issue where the system may not be able to properly execute the HP SmartStart Scripting Toolkit (SSSTK) under Linux based Operating Systems. In some cases, executing the HP SSSTK would result in a segfault error message being reported by the Linux kernel.
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (08/24/2013)
+_____________________________________________
+
+None
+
+
+
+
+
+
+
+
+=======================================================================
+
+
+
+
+
+
+
+Description - 
+
+Version 2013.04.02  Rev. A
+
+
+
+Important Notes -
+
+
+None
+
+
+
+
+
+
+New Features -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (04/02/2013)
+_____________________________________________
+This is the initial version of the firmware.
+
+
+
+
+
+
+Problems Fixed -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (04/02/2013)
+_____________________________________________
+None
+
+
+
+
+
+
+Known Problems -
+
+
+HP ProLiant MicroServer Gen8 system ROM J06 (04/02/2013)
+_____________________________________________
+
+None
+
+
+
+
+
+
+
+
