@@ -3,12 +3,14 @@
 ### iLO 4
 |Version|Update Date|File|Note|
 |----|----|----|----|
+2.73|Feb 13 2020|[ilo4 v273.bin](files/)|BIN file, upgrade via web Admin->Firmware|[Release Note(URL)](https://support.hpe.com/hpsc/swd/public/detail?swItemId=MTX_025846b2035b42f7b85512741b#tab-history)
 2.61|Jul 27 2018|[ilo4_v261.bin](files/ilo4_v261.bin)|BIN file, upgrade via web Admin->Firmware
 2.61|Jul 27 2018|[ilo4_v261_lnx_firmware-ilo4-2.61-1.1.i386.rpm](files/ilo4_v261_lnx_firmware-ilo4-2.61-1.1.i386.rpm)|Linux 
 2.61|Jul 27 2018|[ilo4_v261_lnx_README.md](ilo4_v261_lnx_README.md)|[Release Note (URL)](https://support.hpe.com/hpsc/swd/public/detail?sp4ts.oid=1009143853&swItemId=MTX_fa40c1bfdb924daf87a10fa810&swEnvOid=4184)
 ### System BIOS
 |Version|Update Date|File|Note|
 |----|----|----|----|
+J06|2019.04.04(A)(28 Jun 2019)|[files](files)|BIN file, upgrade via web Admin->Firmware|[Release Note(URL)](https://support.hpe.com/hpsc/swd/public/detail?swItemId=MTX_e9bfdf20809a426cb16ef9cd81#tab-history)
 J06|05/21/2018|[CPQJ0613.4B5](files/CPQJ0613.4B5)|BIN file, upgrade via web Admin->Firmware 
 J06|05/21/2018|[sbios_vj06_lnx_firmware-system-j06-2018.05.21-1.1.i386.rpm](files/sbios_vj06_lnx_firmware-system-j06-2018.05.21-1.1.i386.rpm)|Linux
 J06|05/21/2018|[sbios_vj06_lnx_README.md](sbios_vj06_lnx_README.md)|[Linux Release Note (URL)](https://support.hpe.com/hpsc/swd/public/detail?sp4ts.oid=5390291&swItemId=MTX_6d14418a08954e5a8c8cb08bf0&swEnvOid=4184)
