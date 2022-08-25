@@ -3,6 +3,7 @@
 ### iLO 4
 |Version|Update Date|File|Note|
 |----|----|----|----|
+2.80|Apr 08 2022|[ilo4 v280.bin](files/)|BIN file, upgrade via web Admin->Firmware|[Release Note(URL)](https://support.hpe.com/connect/s/softwaredetails?language=fr&softwareId=MTX_d08e4968119e4737b8549928c2&tab=revisionHistory)
 2.73|Feb 13 2020|[ilo4 v273.bin](files/)|BIN file, upgrade via web Admin->Firmware|[Release Note(URL)](https://support.hpe.com/hpsc/swd/public/detail?swItemId=MTX_025846b2035b42f7b85512741b#tab-history)
 2.61|Jul 27 2018|[ilo4_v261.bin](files/ilo4_v261.bin)|BIN file, upgrade via web Admin->Firmware
 2.61|Jul 27 2018|[ilo4_v261_lnx_firmware-ilo4-2.61-1.1.i386.rpm](files/ilo4_v261_lnx_firmware-ilo4-2.61-1.1.i386.rpm)|Linux 
